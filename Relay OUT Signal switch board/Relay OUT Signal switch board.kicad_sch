@@ -741,49 +741,27 @@
 				)
 			)
 		)
-		(symbol "NewSamsys:EE2-5NU"
+		(symbol "Relay:EC2-5SNU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at 16.51 7.62 0)
+				(at 15.24 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "EE2-5NU"
-				(at 16.51 5.08 0)
+			(property "Value" "EC2-5SNU"
+				(at 19.05 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "EE2-5NU"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "KEMET, EE2, Relays, Signal, 5 V, 220 V, 250 VAC, 2 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"
+			(property "Footprint" "Relay_THT:Relay_DPDT_Kemet_EC2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -792,60 +770,56 @@
 					(hide yes)
 				)
 			)
-			(property "Height" ""
-				(at 16.51 -394.92 0)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "80-EE2-5NU"
-				(at 16.51 -494.92 0)
+			(property "Description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), single coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/EE2-5NU?qs=iaWy59%2Fd4KDPVAG7asNi4Q%3D%3D"
-				(at 16.51 -594.92 0)
+			(property "ki_keywords" "signal relay double pole double throw DPDT DC coil single coil latching"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "KEMET"
-				(at 16.51 -694.92 0)
+			(property "ki_fp_filters" "Relay*THT*Kemet*EC2*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "EE2-5NU"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "EC2-5SNU_0_0"
+				(text "S"
+					(at -8.001 2.921 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
-					(justify left top)
-					(hide yes)
 				)
 			)
-			(symbol "EE2-5NU_1_1"
+			(symbol "EC2-5SNU_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -10.16)
+					(start -15.24 5.08)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -854,10 +828,333 @@
 						(type background)
 					)
 				)
+				(rectangle
+					(start -13.335 1.905)
+					(end -6.985 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -1.905) (xy -7.62 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -5.08) (xy -10.16 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy -10.16 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 0) (xy -6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0) (xy 8.89 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.255 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 2.54) (xy -1.905 3.175) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 8.255 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 5.08) (xy 12.7 2.54) (xy 12.065 3.175) (xy 12.7 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -9.398 -2.667 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "+"
+					(at -9.271 2.921 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "R"
+					(at -8.001 -2.921 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+					(at -10.16 7.62 270)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -873,16 +1170,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -891,9 +1188,27 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
+					(at -10.16 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -909,9 +1224,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -927,9 +1242,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "5"
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -945,45 +1260,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "8"
+					(at 12.7 7.62 270)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -991,6 +1270,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1762,12 +2059,6 @@
 		(uuid "0c8233d7-b9bb-474c-a7d0-e104fb43db23")
 	)
 	(junction
-		(at 153.67 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10df465d-3b63-419d-9075-07e7452c7d23")
-	)
-	(junction
 		(at 246.38 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1798,19 +2089,13 @@
 		(uuid "4f17f65d-dcfa-46a2-80b5-2eac20459d04")
 	)
 	(junction
-		(at 218.44 50.8)
+		(at 224.79 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d3f3494-4896-4583-b794-5c2a8c6c1c6c")
 	)
 	(junction
-		(at 153.67 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7961064f-4703-4df0-8a1f-f6a9107ee310")
-	)
-	(junction
-		(at 29.21 139.7)
+		(at 231.14 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80d39448-37d7-4dfd-bd50-a25a8eeaa2c3")
@@ -1822,22 +2107,10 @@
 		(uuid "811be55c-3eda-439b-ba46-c6841e944b9b")
 	)
 	(junction
-		(at 119.38 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85c3c5bf-893b-4593-b562-85762a0e492a")
-	)
-	(junction
 		(at 246.38 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c5e236b-9174-4560-9761-005acdf6d14f")
-	)
-	(junction
-		(at 226.06 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d09488d-1338-4459-b9c9-b5a7b4ce8703")
 	)
 	(junction
 		(at 246.38 64.77)
@@ -1846,10 +2119,10 @@
 		(uuid "8d6167ed-5509-41ba-9ca3-889c78bd2c88")
 	)
 	(junction
-		(at 119.38 54.61)
+		(at 186.69 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e655aac-56bc-4ac7-b821-1c4649b1ae3e")
+		(uuid "93f215af-36fb-4c17-bb5b-23f8ca70678c")
 	)
 	(junction
 		(at 274.32 62.23)
@@ -1915,13 +2188,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 105.41) (xy 186.69 125.73)
+			(xy 60.96 68.58) (xy 74.93 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "066282da-a067-4564-9cfa-63439405afb7")
+		(uuid "07156c29-9d13-4dc6-b080-a428c4535e51")
 	)
 	(wire
 		(pts
@@ -1945,33 +2218,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 68.58) (xy 158.75 55.88)
+			(xy 60.96 176.53) (xy 73.66 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14de7cf4-3f55-4799-bb35-8adc1e3d8da5")
-	)
-	(wire
-		(pts
-			(xy 124.46 175.26) (xy 124.46 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155a26b1-da3b-4e51-9eb1-fa0acccda364")
-	)
-	(wire
-		(pts
-			(xy 121.92 62.23) (xy 125.73 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15cc0860-afd5-4057-b087-abbfa109ff39")
+		(uuid "0dec6afe-4330-4bcc-b4f6-08ee98cbb1f5")
 	)
 	(wire
 		(pts
@@ -1985,53 +2238,23 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 52.07) (xy 96.52 52.07)
+			(xy 99.06 50.8) (xy 114.3 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1846dcc8-9ded-4f13-b764-4c972f471130")
+		(uuid "1dcc0cf2-93a5-4c1e-a4a4-42ff8d3b09dc")
 	)
 	(wire
 		(pts
-			(xy 153.67 165.1) (xy 147.32 165.1)
+			(xy 60.96 171.45) (xy 73.66 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19c46805-4fcd-4d91-aa86-c4a448d8e1cb")
-	)
-	(wire
-		(pts
-			(xy 96.52 76.2) (xy 96.52 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a5e912f-9642-41ab-b018-ffab08b9d004")
-	)
-	(wire
-		(pts
-			(xy 146.05 54.61) (xy 153.67 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e288f10-6848-4966-aefb-0712f4e4646c")
-	)
-	(wire
-		(pts
-			(xy 120.65 105.41) (xy 120.65 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2020ba71-13e6-42a2-93b9-043d1d991a9f")
+		(uuid "211619bb-e257-4366-a10d-706d8a46512b")
 	)
 	(wire
 		(pts
@@ -2055,43 +2278,33 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 54.61) (xy 153.67 50.8)
+			(xy 101.6 120.65) (xy 115.57 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "239eb908-c750-4541-a0b6-ae4682c0059c")
+		(uuid "252e3ccc-63f2-407a-a6ad-56b77081e1b0")
 	)
 	(wire
 		(pts
-			(xy 146.05 62.23) (xy 146.05 99.06)
+			(xy 60.96 148.59) (xy 73.66 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25976150-ea7d-4ff7-99a9-eb6827471cab")
+		(uuid "25ae9977-2d34-4e7b-9350-777769d07ff7")
 	)
 	(wire
 		(pts
-			(xy 60.96 76.2) (xy 96.52 76.2)
+			(xy 224.79 50.8) (xy 274.32 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29178990-6044-41be-a426-6d782d7406f8")
-	)
-	(wire
-		(pts
-			(xy 60.96 175.26) (xy 124.46 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "298d90de-cbe8-4eb0-9900-9c324e032c54")
+		(uuid "2ceaa09a-6969-4fe9-8c32-35f5ce8a072e")
 	)
 	(wire
 		(pts
@@ -2105,7 +2318,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 60.96) (xy 189.23 60.96)
+			(xy 189.23 104.14) (xy 189.23 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2135,17 +2348,37 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 182.88) (xy 152.4 182.88)
+			(xy 99.06 63.5) (xy 114.3 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37645b33-4c66-4bd2-b618-c07063d78575")
+		(uuid "3427dc15-b469-4821-b6cc-2ffd0cdd0ae5")
 	)
 	(wire
 		(pts
-			(xy 29.21 134.62) (xy 29.21 139.7)
+			(xy 99.06 58.42) (xy 114.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34515970-7c6b-4b1d-90fd-a421f62bc9ad")
+	)
+	(wire
+		(pts
+			(xy 186.69 125.73) (xy 186.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346a1bd4-b63a-4291-96df-497975f1effa")
+	)
+	(wire
+		(pts
+			(xy 231.14 130.81) (xy 231.14 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2165,63 +2398,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 116.84) (xy 158.75 130.81)
+			(xy 105.41 163.83) (xy 115.57 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42d52f4d-2af5-40ce-bf86-300cdeaac766")
+		(uuid "3f0da142-0d17-4a49-b146-ea936e624f23")
 	)
 	(wire
 		(pts
-			(xy 99.06 114.3) (xy 127 114.3)
+			(xy 105.41 168.91) (xy 115.57 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46c19e43-b775-46aa-b130-31a5b1ddc25c")
-	)
-	(wire
-		(pts
-			(xy 154.94 114.3) (xy 154.94 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4728885b-b458-4f0a-af1f-c8bc257c7ee0")
-	)
-	(wire
-		(pts
-			(xy 76.2 128.27) (xy 76.2 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47516761-df43-4c92-8651-4510279ca2b0")
-	)
-	(wire
-		(pts
-			(xy 226.06 39.37) (xy 119.38 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49d87581-8b61-4bcd-b0e8-c52e4df0b755")
-	)
-	(wire
-		(pts
-			(xy 153.67 50.8) (xy 218.44 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d1ca1bf-41ca-4007-a35b-f70fb566d61f")
+		(uuid "41b874a8-0c78-4b9b-a9ca-e80188dc3491")
 	)
 	(wire
 		(pts
@@ -2245,16 +2438,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 128.27) (xy 76.2 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53b7062b-be13-4db6-b814-c41ee6265959")
-	)
-	(wire
-		(pts
 			(xy 60.96 96.52) (xy 73.66 96.52)
 		)
 		(stroke
@@ -2265,7 +2448,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 105.41) (xy 186.69 105.41)
+			(xy 186.69 171.45) (xy 186.69 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2275,13 +2458,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 71.12) (xy 99.06 71.12)
+			(xy 60.96 46.99) (xy 73.66 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bbaadc4-5ec5-456d-8817-4b68f2b991cf")
+		(uuid "5f3b5550-2aae-4781-9574-adb35bcf603e")
 	)
 	(wire
 		(pts
@@ -2295,23 +2478,33 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 165.1) (xy 127 165.1)
+			(xy 60.96 93.98) (xy 73.66 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "633e3724-5840-4335-b69b-67da5e72b819")
+		(uuid "61269702-4e2b-4c93-bbaa-821c50a3d33d")
 	)
 	(wire
 		(pts
-			(xy 119.38 54.61) (xy 119.38 111.76)
+			(xy 101.6 110.49) (xy 115.57 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "647f2748-3614-4bce-aa4a-a4923f585aa8")
+		(uuid "6245dec9-02c9-4349-b5f1-15710149a837")
+	)
+	(wire
+		(pts
+			(xy 212.09 50.8) (xy 224.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c2d6eb-7117-467d-b3be-bb34e5c612d1")
 	)
 	(wire
 		(pts
@@ -2325,13 +2518,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 54.61) (xy 125.73 54.61)
+			(xy 100.33 97.79) (xy 115.57 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a720e2a-d037-4684-b66c-accb22dcb2fc")
+		(uuid "6d23decd-6fa4-4275-9186-d8422087f55d")
 	)
 	(wire
 		(pts
@@ -2345,26 +2538,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 152.4) (xy 99.06 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e479e2f-8b28-479a-8e80-72cccdf342a3")
-	)
-	(wire
-		(pts
-			(xy 127 111.76) (xy 119.38 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eaedbb1-bd96-48d0-a583-9594b1d02e30")
-	)
-	(wire
-		(pts
 			(xy 266.7 93.98) (xy 274.32 93.98)
 		)
 		(stroke
@@ -2375,63 +2548,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 157.48) (xy 160.02 167.64)
+			(xy 280.67 97.79) (xy 280.67 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7736a289-2370-4765-a8f1-13f8a466674c")
-	)
-	(wire
-		(pts
-			(xy 226.06 39.37) (xy 280.67 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "774d8646-f163-40a4-abb3-ecc8fffda664")
-	)
-	(wire
-		(pts
-			(xy 99.06 71.12) (xy 99.06 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "789dc3f5-c419-4ccd-8850-c0df155f4f81")
-	)
-	(wire
-		(pts
-			(xy 121.92 93.98) (xy 121.92 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a89a38d-2325-4c6a-8127-d0219e729142")
-	)
-	(wire
-		(pts
-			(xy 147.32 116.84) (xy 158.75 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a9016e8-1c58-4e63-99f6-7c25b8be1879")
-	)
-	(wire
-		(pts
-			(xy 115.57 59.69) (xy 115.57 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c13e6c1-84de-4878-bd41-9544a484c0b9")
+		(uuid "75d1f821-35dd-4ba2-8e72-24c149c169a5")
 	)
 	(wire
 		(pts
@@ -2445,53 +2568,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 167.64) (xy 160.02 167.64)
+			(xy 101.6 115.57) (xy 115.57 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "814ec6df-232d-4618-a57a-240bd30de96e")
-	)
-	(wire
-		(pts
-			(xy 218.44 50.8) (xy 274.32 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8551a53e-4e65-4de4-a3eb-abf8e1a269f7")
-	)
-	(wire
-		(pts
-			(xy 153.67 111.76) (xy 153.67 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85584bc9-4138-403c-9e59-1b5917331286")
-	)
-	(wire
-		(pts
-			(xy 115.57 68.58) (xy 158.75 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85f2334a-44c9-4653-9dd9-8c5b8e64d183")
-	)
-	(wire
-		(pts
-			(xy 119.38 39.37) (xy 119.38 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f744c4-faf0-4947-863a-5c6721f4ffea")
+		(uuid "815a1b55-1eff-41a1-8e61-4dd2f6a17db3")
 	)
 	(wire
 		(pts
@@ -2505,53 +2588,23 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 39.37) (xy 280.67 113.03)
+			(xy 147.32 55.88) (xy 189.23 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a523238-f3f4-4ee4-a961-e87a11d31884")
+		(uuid "953ec976-8e2a-4da6-8b84-e142d10fafc8")
 	)
 	(wire
 		(pts
-			(xy 152.4 135.89) (xy 152.4 119.38)
+			(xy 60.96 118.11) (xy 73.66 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92302184-4a9d-4e41-89ac-55b1df41f08a")
-	)
-	(wire
-		(pts
-			(xy 60.96 123.19) (xy 121.92 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e738e7-65fb-4dbf-99bd-91cc7ccb41a5")
-	)
-	(wire
-		(pts
-			(xy 113.03 170.18) (xy 127 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "970a0faa-6e09-497a-8c86-7ae9521c6d70")
-	)
-	(wire
-		(pts
-			(xy 96.52 52.07) (xy 96.52 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97282fbc-87b8-4ed0-a8ef-e099f308d0ad")
+		(uuid "97c3bf22-420c-48cf-83ad-cbb5e1bc2f43")
 	)
 	(wire
 		(pts
@@ -2595,33 +2648,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 46.99) (xy 115.57 57.15)
+			(xy 60.96 153.67) (xy 73.66 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4d9533c-80c5-467a-9d8e-034b3177c4ce")
-	)
-	(wire
-		(pts
-			(xy 96.52 69.85) (xy 151.13 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a638a38e-65f5-4a14-9ee2-77076bfaebd8")
-	)
-	(wire
-		(pts
-			(xy 113.03 149.86) (xy 191.77 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa134e40-f96e-4440-a258-5fcbad752bc9")
+		(uuid "a950c62f-1d30-4ef8-b5f9-c7a78d53b696")
 	)
 	(wire
 		(pts
@@ -2635,63 +2668,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 116.84) (xy 127 116.84)
+			(xy 60.96 73.66) (xy 74.93 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af6d9339-47c0-4cd7-a293-b99754e59cdd")
+		(uuid "b5995ffa-4eb5-4d22-9cdc-503c126c04dd")
 	)
 	(wire
 		(pts
-			(xy 158.75 55.88) (xy 189.23 55.88)
+			(xy 101.6 105.41) (xy 115.57 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0823901-3051-46fe-a1fc-9eb848d3539e")
-	)
-	(wire
-		(pts
-			(xy 158.75 130.81) (xy 191.77 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0afa335-65f3-4bf5-8942-b32d054454b8")
-	)
-	(wire
-		(pts
-			(xy 152.4 182.88) (xy 152.4 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b330986d-fdb5-45a4-b3a5-b66a691eb249")
-	)
-	(wire
-		(pts
-			(xy 151.13 69.85) (xy 151.13 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8ee6366-35de-408c-86cf-9ecc5368025a")
-	)
-	(wire
-		(pts
-			(xy 121.92 119.38) (xy 127 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba433703-dcb3-4fe1-b9e2-5bf03dbd73c6")
+		(uuid "b9ce39f9-9fc8-4881-b4ac-748fd5d767e9")
 	)
 	(wire
 		(pts
@@ -2705,17 +2698,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 172.72) (xy 127 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcbef4e1-a2c3-4409-a090-fabce77eb7c7")
-	)
-	(wire
-		(pts
-			(xy 29.21 139.7) (xy 29.21 149.86)
+			(xy 231.14 135.89) (xy 231.14 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2735,23 +2718,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 73.66) (xy 73.66 73.66)
+			(xy 60.96 71.12) (xy 73.66 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c72b84d7-550e-472a-94fc-f6efe3c04158")
-	)
-	(wire
-		(pts
-			(xy 119.38 111.76) (xy 119.38 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c801c2c5-d3ab-45ed-bfde-671afb1acef5")
 	)
 	(wire
 		(pts
@@ -2765,17 +2738,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 114.3) (xy 147.32 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c90aa476-bd27-4e8f-909f-a79348a24288")
-	)
-	(wire
-		(pts
-			(xy 60.96 125.73) (xy 73.66 125.73)
+			(xy 60.96 120.65) (xy 73.66 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2795,53 +2758,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 57.15) (xy 125.73 57.15)
+			(xy 60.96 99.06) (xy 73.66 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb2bfc8b-05c6-4d2d-8ab0-9043ffe65d8d")
-	)
-	(wire
-		(pts
-			(xy 121.92 123.19) (xy 121.92 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccffb76e-a930-455e-ab7a-c660eddb1385")
-	)
-	(wire
-		(pts
-			(xy 165.1 154.94) (xy 165.1 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf4e44d4-da54-4b2a-9551-7c822f0b7fab")
-	)
-	(wire
-		(pts
-			(xy 60.96 46.99) (xy 115.57 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d00fedc0-00cf-4801-99c4-4f068561038c")
-	)
-	(wire
-		(pts
-			(xy 99.06 152.4) (xy 99.06 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e44da4-941d-4749-8628-1886ff718298")
+		(uuid "cf0524cc-88f7-435b-b1bc-4e28f7c91839")
 	)
 	(wire
 		(pts
@@ -2855,53 +2778,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 170.18) (xy 113.03 149.86)
+			(xy 107.95 151.13) (xy 115.57 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d40aac4c-4fd1-4847-82ea-5338037b25a1")
+		(uuid "d5661b14-10ec-4696-8d37-6b1dab755c29")
 	)
 	(wire
 		(pts
-			(xy 151.13 57.15) (xy 146.05 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4161405-40c9-47c3-a1f6-6e330c0acf3e")
-	)
-	(wire
-		(pts
-			(xy 60.96 177.8) (xy 73.66 177.8)
+			(xy 60.96 173.99) (xy 73.66 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d5c94f0e-d7fc-4d07-843a-37222954789d")
-	)
-	(wire
-		(pts
-			(xy 60.96 180.34) (xy 60.96 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d648aa68-bdd0-4e50-a38e-8fbf238e14da")
-	)
-	(wire
-		(pts
-			(xy 60.96 93.98) (xy 121.92 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d64ca840-ae78-4e7b-bcf1-41d825016563")
 	)
 	(wire
 		(pts
@@ -2915,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 60.96) (xy 146.05 59.69)
+			(xy 132.08 72.39) (xy 132.08 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2925,33 +2818,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 119.38) (xy 147.32 119.38)
+			(xy 105.41 158.75) (xy 115.57 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc46b58e-d846-4ba3-9e96-72a8b45d60f8")
-	)
-	(wire
-		(pts
-			(xy 60.96 157.48) (xy 160.02 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de594468-b270-4f4f-93ef-744ef838f148")
-	)
-	(wire
-		(pts
-			(xy 125.73 59.69) (xy 115.57 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de7dd495-a75c-4199-949d-458921b86fc9")
+		(uuid "dcce5bae-8294-4468-a917-2487496b0f7f")
 	)
 	(wire
 		(pts
@@ -2965,16 +2838,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 111.76) (xy 153.67 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df7f3cc4-8d8d-4402-9aaf-495c5e6a852c")
-	)
-	(wire
-		(pts
 			(xy 191.77 154.94) (xy 165.1 154.94)
 		)
 		(stroke
@@ -2985,23 +2848,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 167.64) (xy 127 167.64)
+			(xy 105.41 173.99) (xy 115.57 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e55dea9d-7361-4a50-bc9a-2463a4edce97")
-	)
-	(wire
-		(pts
-			(xy 96.52 130.81) (xy 154.94 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6440ade-8be0-4a8c-90c9-6dc5fc06c024")
+		(uuid "e387b19f-04ef-4226-8f32-492412c91809")
 	)
 	(wire
 		(pts
@@ -3015,33 +2868,33 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 154.94) (xy 73.66 154.94)
+			(xy 60.96 123.19) (xy 73.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9023143-fef8-48cb-b3b9-cca1f7ac68d9")
+	)
+	(wire
+		(pts
+			(xy 60.96 52.07) (xy 73.66 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba25d5c-cb8a-4381-9a57-9a68c93254ce")
+	)
+	(wire
+		(pts
+			(xy 60.96 151.13) (xy 73.66 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec6b5760-2e6a-4260-8014-7de6c7b92cbb")
-	)
-	(wire
-		(pts
-			(xy 60.96 99.06) (xy 146.05 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eca5b172-b672-4016-8187-b861edeb073f")
-	)
-	(wire
-		(pts
-			(xy 165.1 170.18) (xy 147.32 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eef992b9-c0db-49e0-a628-8cd326614883")
 	)
 	(wire
 		(pts
@@ -3055,6 +2908,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b3e35c-43a4-4d68-9196-db0dbc1aec4b")
+	)
+	(wire
+		(pts
 			(xy 274.32 113.03) (xy 269.24 113.03)
 		)
 		(stroke
@@ -3065,16 +2928,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 172.72) (xy 147.32 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2483052-36dc-42dc-ab68-363863b1a9d5")
-	)
-	(wire
-		(pts
 			(xy 60.96 49.53) (xy 73.66 49.53)
 		)
 		(stroke
@@ -3082,16 +2935,6 @@
 			(type default)
 		)
 		(uuid "f73507ee-7087-4806-bd5c-ac46677b591f")
-	)
-	(wire
-		(pts
-			(xy 76.2 135.89) (xy 152.4 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f73b35b4-0b10-41ac-8ffd-16899a84a009")
 	)
 	(wire
 		(pts
@@ -3115,13 +2958,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 54.61) (xy 153.67 111.76)
+			(xy 99.06 68.58) (xy 114.3 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9b2973e-53ab-47c8-9cdc-c502642cc9f5")
+		(uuid "f9dab873-c5ef-4c6a-90cd-def571394119")
 	)
 	(wire
 		(pts
@@ -3181,6 +3024,16 @@
 		)
 		(uuid "fecdddfd-e2ee-414e-8736-87a8f1339dd1")
 	)
+	(text "Left Balanced switch"
+		(exclude_from_sim no)
+		(at 123.19 90.17 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "2def4b63-8767-4ba6-9857-9d228dc501b7")
+	)
 	(text "Switching Control Inputs"
 		(exclude_from_sim no)
 		(at 213.36 101.6 0)
@@ -3191,16 +3044,6 @@
 		)
 		(uuid "399beff2-fb5f-4656-a61a-99bf160afa18")
 	)
-	(text "KEMET EE2 DPDT RELAYS"
-		(exclude_from_sim no)
-		(at 140.97 142.24 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "62999ac7-7724-4649-b276-7923948149c9")
-	)
 	(text "SIGNAL CONTROL"
 		(exclude_from_sim no)
 		(at 257.81 142.24 0)
@@ -3210,6 +3053,16 @@
 			)
 		)
 		(uuid "ab6c45a9-5997-4d04-86c7-cfd3e5db5224")
+	)
+	(text "SE Balanced switch"
+		(exclude_from_sim no)
+		(at 121.92 142.24 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "c0a7c6f3-1d5f-46b5-8349-1ccbc57e1f86")
 	)
 	(text "Relay switching to switch between different to input XLR to one XLR and SE outputs\n"
 		(exclude_from_sim no)
@@ -3223,13 +3076,23 @@
 	)
 	(text "Signal inputs"
 		(exclude_from_sim no)
-		(at 49.53 142.24 0)
+		(at 49.53 138.43 0)
 		(effects
 			(font
 				(size 2 2)
 			)
 		)
 		(uuid "dc75414e-03f5-48c9-ab06-587a122775a4")
+	)
+	(text "Right Balanced switch"
+		(exclude_from_sim no)
+		(at 121.92 43.18 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "f8b35327-550b-401a-ac8b-5a7577ad6c06")
 	)
 	(text "SIGNAL OUTPUTS "
 		(exclude_from_sim no)
@@ -3242,18 +3105,18 @@
 		(uuid "fac52f7d-7a44-4ad5-9442-40e670fa8144")
 	)
 	(label "SE_1_R"
-		(at 64.77 157.48 0)
+		(at 73.66 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0f1cc938-0e52-432e-9ae9-4c37f3700161")
 	)
 	(label "switch power"
-		(at 232.41 50.8 0)
+		(at 212.09 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3262,6 +3125,17 @@
 			(justify left bottom)
 		)
 		(uuid "14d10aa0-8e33-443f-9d8b-e3c5f33b2e75")
+	)
+	(label "main 5v"
+		(at 107.95 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "15d41970-b9c7-4db6-94a6-434a15c276ba")
 	)
 	(label "out_L_+"
 		(at 172.72 130.81 0)
@@ -3275,18 +3149,18 @@
 		(uuid "1961bbde-4a7b-4269-827d-e180f676aa5e")
 	)
 	(label "inp_1_bal_R_+"
-		(at 62.23 52.07 0)
+		(at 73.66 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1e8e45bf-a7a7-4c6d-9e34-91700453ce95")
 	)
-	(label "main 5v"
-		(at 280.67 97.79 90)
+	(label "inp_1_bal_L_-"
+		(at 101.6 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3294,16 +3168,27 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "26e89bed-d055-4031-a9fd-19609dc57a8b")
+		(uuid "26070ab6-b26b-46a0-83a4-36d12f0a04e5")
 	)
-	(label "inp_2_bal_R_+"
-		(at 62.23 99.06 0)
+	(label "main 5v"
+		(at 280.67 97.79 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
+		)
+		(uuid "2cf41f49-32ac-49ba-803d-af4950da1b60")
+	)
+	(label "inp_2_bal_R_+"
+		(at 73.66 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
 		)
 		(uuid "3e1b32a3-7aab-4207-be41-7a0858f99675")
 	)
@@ -3319,7 +3204,18 @@
 		(uuid "3fdd5b19-1ff2-4d1b-a884-e58a19db9b79")
 	)
 	(label "inp_1_bal_L_+"
-		(at 62.23 76.2 0)
+		(at 74.93 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "4376bc33-2386-4e25-a37c-9fe641dcefeb")
+	)
+	(label "inp_2_bal_L_-"
+		(at 101.6 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3327,7 +3223,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4376bc33-2386-4e25-a37c-9fe641dcefeb")
+		(uuid "44bb6d4c-3bd1-42f3-bb71-5a6a4d878fca")
 	)
 	(label "out_L_-"
 		(at 172.72 105.41 0)
@@ -3341,7 +3237,18 @@
 		(uuid "4b333924-86b3-42ce-9d38-f66dbdf276b9")
 	)
 	(label "SE_2_R"
-		(at 64.77 182.88 0)
+		(at 73.66 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "4feaf40d-c1dc-4e02-9869-a9bbbc5a4a2b")
+	)
+	(label "SE_2_R"
+		(at 105.41 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3349,7 +3256,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4feaf40d-c1dc-4e02-9869-a9bbbc5a4a2b")
+		(uuid "513fe88d-c556-4574-bb92-815a050f6ed4")
+	)
+	(label "main 5v"
+		(at 105.41 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "55041c82-2288-41d1-a333-e26e43f6a1ad")
+	)
+	(label "main 5v"
+		(at 107.95 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c73523b-512f-412f-b472-fcad8da6df33")
 	)
 	(label "sig ground"
 		(at 179.07 152.4 0)
@@ -3362,6 +3291,17 @@
 		)
 		(uuid "638408bf-0da9-4aa5-bba1-8db885429542")
 	)
+	(label "SE_2_L"
+		(at 105.41 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "652e23c0-ecb7-46b9-9186-93ba80449e02")
+	)
 	(label "sig ground"
 		(at 73.66 49.53 180)
 		(fields_autoplaced yes)
@@ -3373,8 +3313,19 @@
 		)
 		(uuid "6a4b4774-9651-4e3c-affa-edbc2734f837")
 	)
+	(label "inp_1_bal_R_-"
+		(at 99.06 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bc02fbd-ffef-4177-8350-54f65de886fe")
+	)
 	(label "sig ground"
-		(at 29.21 134.62 180)
+		(at 231.14 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3385,18 +3336,18 @@
 		(uuid "6f914e83-b4d0-4fee-8635-72654efbd138")
 	)
 	(label "SE_1_L"
-		(at 64.77 152.4 0)
+		(at 73.66 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7c98763c-a729-408a-bbe5-ce4186f00bc4")
 	)
 	(label "sig ground"
-		(at 73.66 177.8 180)
+		(at 73.66 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3407,7 +3358,7 @@
 		(uuid "80b97dd8-c3f2-4e4f-9306-6e293825bdfe")
 	)
 	(label "sig ground"
-		(at 73.66 154.94 180)
+		(at 73.66 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3416,6 +3367,17 @@
 			(justify right bottom)
 		)
 		(uuid "858ab922-c4fc-40e4-bbe1-02fa5670ceb4")
+	)
+	(label "inp_2_bal_R_+"
+		(at 99.06 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "86baff71-8515-4872-a953-1dcccac83762")
 	)
 	(label "SE_OUT_R"
 		(at 167.64 154.94 0)
@@ -3428,8 +3390,30 @@
 		)
 		(uuid "91275639-b687-4b0a-9a35-749cf2cce832")
 	)
+	(label "inp_1_bal_R_+"
+		(at 99.06 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "94310b45-036d-4851-b66c-dc5495003307")
+	)
+	(label "SE_1_R"
+		(at 105.41 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "980a026d-4d3a-426c-846b-e139ed66ca71")
+	)
 	(label "sig ground"
-		(at 73.66 73.66 180)
+		(at 73.66 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3440,13 +3424,13 @@
 		(uuid "9aada4b7-c2ef-411e-90bc-9ecf24d30254")
 	)
 	(label "inp_1_bal_R_-"
-		(at 62.23 46.99 0)
+		(at 73.66 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9bf42f2c-83a0-46f3-bf81-55a4a09084df")
 	)
@@ -3473,29 +3457,29 @@
 		(uuid "a0c0f854-f40d-47b8-a160-6f9168781449")
 	)
 	(label "SE_2_L"
-		(at 64.77 175.26 0)
+		(at 73.66 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ad45b280-2057-498e-9f2a-658eaa763e53")
 	)
 	(label "inp_2_bal_R_-"
-		(at 62.23 93.98 0)
+		(at 73.66 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ad49b1a5-d569-4895-b89a-cbabdbd6944b")
 	)
 	(label "sig ground"
-		(at 73.66 125.73 180)
+		(at 73.66 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3505,14 +3489,25 @@
 		)
 		(uuid "bc099b34-88b4-4ceb-9503-a6b2b62943a1")
 	)
-	(label "inp_2_bal_L_-"
-		(at 62.23 123.19 0)
+	(label "inp_1_bal_L_+"
+		(at 101.6 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify left bottom)
+		)
+		(uuid "c500e96c-a308-4cc7-9943-f7273251fa67")
+	)
+	(label "inp_2_bal_L_-"
+		(at 73.66 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
 		)
 		(uuid "c5fa6808-4549-43d2-934a-f7028a7ac492")
 	)
@@ -3527,8 +3522,8 @@
 		)
 		(uuid "def20dd9-9619-4e9b-9c53-f546f761f288")
 	)
-	(label "inp_1_bal_L_-"
-		(at 62.23 71.12 0)
+	(label "SE_1_L"
+		(at 105.41 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3536,16 +3531,38 @@
 			)
 			(justify left bottom)
 		)
+		(uuid "e39f2fbb-e82d-4df7-abbf-2df8d42f50d2")
+	)
+	(label "inp_1_bal_L_-"
+		(at 74.93 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
 		(uuid "e4211a4f-451f-4e1b-b1a4-3015e2b29775")
 	)
 	(label "inp_2_bal_L_+"
-		(at 62.23 128.27 0)
+		(at 101.6 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify left bottom)
+		)
+		(uuid "e5495e10-ea81-44af-ac74-3cb31b18bcf3")
+	)
+	(label "inp_2_bal_L_+"
+		(at 73.66 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
 		)
 		(uuid "ed4a6649-c115-4587-a71b-af4de619c730")
 	)
@@ -3570,6 +3587,17 @@
 			(justify right bottom)
 		)
 		(uuid "f6f98149-acd5-4655-94fe-0461f70d4b17")
+	)
+	(label "inp_2_bal_R_-"
+		(at 99.06 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe345a4e-b1b9-4d7e-bac3-63606449b4a8")
 	)
 	(symbol
 		(lib_id "NewSamsys:1725669")
@@ -3957,16 +3985,16 @@
 	)
 	(symbol
 		(lib_id "NewSamsys:1725669")
-		(at 60.96 76.2 180)
+		(at 60.96 68.58 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1cf1cff4-0cc8-4b85-9f05-5cd17e77e4e7")
 		(property "Reference" "J15"
-			(at 50.8 63.5 0)
+			(at 50.8 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +4002,7 @@
 			)
 		)
 		(property "Value" "1725669"
-			(at 50.8 66.04 0)
+			(at 50.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +4010,7 @@
 			)
 		)
 		(property "Footprint" "1725669"
-			(at 44.45 -18.72 0)
+			(at 44.45 163.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +4020,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725669&library=usen&tab=1"
-			(at 44.45 -118.72 0)
+			(at 44.45 263.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +4030,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 60.96 76.2 0)
+			(at 60.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4039,7 @@
 			)
 		)
 		(property "Height" "8.65"
-			(at 44.45 -318.72 0)
+			(at 44.45 463.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +4049,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1725669"
-			(at 44.45 -418.72 0)
+			(at 44.45 563.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4059,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D"
-			(at 44.45 -518.72 0)
+			(at 44.45 663.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4069,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 44.45 -618.72 0)
+			(at 44.45 763.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +4079,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1725669"
-			(at 44.45 -718.72 0)
+			(at 44.45 863.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +4108,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 29.21 139.7 270)
+		(at 231.14 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4089,7 +4117,7 @@
 		(fields_autoplaced yes)
 		(uuid "1de2b98b-01d9-4477-a52c-5f1f2885bfce")
 		(property "Reference" "#FLG02"
-			(at 31.115 139.7 0)
+			(at 233.045 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4126,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 33.02 139.6999 90)
+			(at 234.95 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 139.7 0)
+			(at 231.14 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4144,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 139.7 0)
+			(at 231.14 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +4153,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 139.7 0)
+			(at 231.14 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4175,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 149.86 0)
+		(at 231.14 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4156,7 +4184,7 @@
 		(fields_autoplaced yes)
 		(uuid "294f49da-0496-4a6d-8d01-800b3cbd9c12")
 		(property "Reference" "#PWR08"
-			(at 29.21 156.21 0)
+			(at 231.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 154.94 0)
+			(at 231.14 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +4201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 149.86 0)
+			(at 231.14 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +4210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 149.86 0)
+			(at 231.14 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 149.86 0)
+			(at 231.14 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,16 +4241,16 @@
 	)
 	(symbol
 		(lib_id "NewSamsys:1725669")
-		(at 60.96 52.07 180)
+		(at 60.96 46.99 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "37c694a6-8fb9-4786-a66e-d29151b74d11")
 		(property "Reference" "J16"
-			(at 50.8 39.37 0)
+			(at 50.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4258,7 @@
 			)
 		)
 		(property "Value" "1725669"
-			(at 50.8 41.91 0)
+			(at 50.8 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4266,7 @@
 			)
 		)
 		(property "Footprint" "1725669"
-			(at 44.45 -42.85 0)
+			(at 44.45 141.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4276,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725669&library=usen&tab=1"
-			(at 44.45 -142.85 0)
+			(at 44.45 241.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4286,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 60.96 52.07 0)
+			(at 60.96 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +4295,7 @@
 			)
 		)
 		(property "Height" "8.65"
-			(at 44.45 -342.85 0)
+			(at 44.45 441.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4305,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1725669"
-			(at 44.45 -442.85 0)
+			(at 44.45 541.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4315,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D"
-			(at 44.45 -542.85 0)
+			(at 44.45 641.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4325,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 44.45 -642.85 0)
+			(at 44.45 741.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4335,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1725669"
-			(at 44.45 -742.85 0)
+			(at 44.45 841.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4431,7 @@
 	)
 	(symbol
 		(lib_id "NewSamsys:1725669")
-		(at 60.96 180.34 180)
+		(at 60.96 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4412,7 +4440,7 @@
 		(fields_autoplaced yes)
 		(uuid "40dfedc9-874e-446a-b62e-4bcb03f186d9")
 		(property "Reference" "J12"
-			(at 50.8 167.64 0)
+			(at 50.8 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +4448,7 @@
 			)
 		)
 		(property "Value" "1725669"
-			(at 50.8 170.18 0)
+			(at 50.8 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4456,7 @@
 			)
 		)
 		(property "Footprint" "1725669"
-			(at 44.45 85.42 0)
+			(at 44.45 81.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4466,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725669&library=usen&tab=1"
-			(at 44.45 -14.58 0)
+			(at 44.45 -18.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +4476,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 60.96 180.34 0)
+			(at 60.96 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4485,7 @@
 			)
 		)
 		(property "Height" "8.65"
-			(at 44.45 -214.58 0)
+			(at 44.45 -218.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,7 +4495,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1725669"
-			(at 44.45 -314.58 0)
+			(at 44.45 -318.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,7 +4505,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D"
-			(at 44.45 -414.58 0)
+			(at 44.45 -418.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,7 +4515,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 44.45 -514.58 0)
+			(at 44.45 -518.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4525,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1725669"
-			(at 44.45 -614.58 0)
+			(at 44.45 -618.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,6 +4547,92 @@
 			(project "Relay OUT Signal switch board"
 				(path "/cc5da66e-0523-4ac5-a4e5-68ab081b8490"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:EC2-5SNU")
+		(at 123.19 107.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42932db2-2185-4268-8c47-94a8e93a62a6")
+		(property "Reference" "K1"
+			(at 123.19 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC2-5SNU"
+			(at 123.19 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Kemet_EC2"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), single coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "ad0b165c-7656-45d1-b948-83721fc581e7")
+		)
+		(pin "4"
+			(uuid "4add93f5-9088-4b20-9799-22aef2ac3276")
+		)
+		(pin "5"
+			(uuid "f871616d-1dc1-453c-bf3e-90a0f2fdf354")
+		)
+		(pin "9"
+			(uuid "e1c6612b-842c-4684-9bdb-f355df4987a0")
+		)
+		(pin "12"
+			(uuid "3fbeffc1-147e-424c-bf5b-5dc3c6a8949f")
+		)
+		(pin "3"
+			(uuid "b702cd63-b738-4956-8aca-33336236ec51")
+		)
+		(pin "10"
+			(uuid "2fd6b90c-90fe-408f-8c6d-35991fe4cbb7")
+		)
+		(pin "1"
+			(uuid "2e41a895-bf24-4c37-ad8d-f8dfdec4144e")
+		)
+		(instances
+			(project "Relay OUT Signal switch board"
+				(path "/cc5da66e-0523-4ac5-a4e5-68ab081b8490"
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -4642,6 +4756,92 @@
 			(project "Relay OUT Signal switch board"
 				(path "/cc5da66e-0523-4ac5-a4e5-68ab081b8490"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:EC2-5SNU")
+		(at 123.19 161.29 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48391799-3cc3-4246-87de-45afc1640d5c")
+		(property "Reference" "K3"
+			(at 123.19 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC2-5SNU"
+			(at 123.19 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Kemet_EC2"
+			(at 123.19 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
+			(at 123.19 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), single coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
+			(at 123.19 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "ccc2612f-f64d-45c9-8a5f-6cbac90cdea2")
+		)
+		(pin "4"
+			(uuid "cd64ae9d-e2e8-4568-b50a-6438325c1ff3")
+		)
+		(pin "5"
+			(uuid "fdbe9ea0-af64-40ff-a5d4-a89395537f76")
+		)
+		(pin "9"
+			(uuid "cc0c903c-5f03-495c-aa77-ef3eda017c0a")
+		)
+		(pin "12"
+			(uuid "84348f84-e6d8-4468-923d-0aa95fd2dace")
+		)
+		(pin "3"
+			(uuid "c427113a-ea28-453c-a648-2dd2a1645d02")
+		)
+		(pin "10"
+			(uuid "366ea6c7-f4a2-45d1-b498-4199f19da48d")
+		)
+		(pin "1"
+			(uuid "b7cddd9a-e496-4c15-9780-b5021f1c4c52")
+		)
+		(instances
+			(project "Relay OUT Signal switch board"
+				(path "/cc5da66e-0523-4ac5-a4e5-68ab081b8490"
+					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -4854,145 +5054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NewSamsys:EE2-5NU")
-		(at 127 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50429c9d-10ca-4155-b73c-caebdbdbc44b")
-		(property "Reference" "K4"
-			(at 137.16 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Left Bal"
-			(at 137.16 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EE2-5NU"
-			(at 143.51 260.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
-			(at 143.51 360.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "KEMET, EE2, Relays, Signal, 5 V, 220 V, 250 VAC, 2 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"
-			(at 127 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 143.51 560.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-EE2-5NU"
-			(at 143.51 660.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/EE2-5NU?qs=iaWy59%2Fd4KDPVAG7asNi4Q%3D%3D"
-			(at 143.51 760.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 143.51 860.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EE2-5NU"
-			(at 143.51 960.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "17c438b3-1f3e-4088-8fe8-c032ed65b3ef")
-		)
-		(pin "1"
-			(uuid "29dcd936-8b44-4b7f-b79c-f970d491089f")
-		)
-		(pin "3"
-			(uuid "20d2274c-7505-4b11-bdc9-36e69bc1098d")
-		)
-		(pin "8"
-			(uuid "d673a183-ef86-4d7a-bc73-c3fec295987a")
-		)
-		(pin "5"
-			(uuid "804997aa-089b-48e0-9ab6-f10cc13d6d45")
-		)
-		(pin "2"
-			(uuid "cb6b4f8b-ae4a-4eff-bc03-7940d6791a68")
-		)
-		(pin "7"
-			(uuid "1f16785e-63ad-4cd6-acab-cedc827741f1")
-		)
-		(pin "4"
-			(uuid "06f48f48-73b0-4d2e-879a-943a1d677ab7")
-		)
-		(instances
-			(project "Relay OUT Signal switch board"
-				(path "/cc5da66e-0523-4ac5-a4e5-68ab081b8490"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NewSamsys:1725669")
 		(at 191.77 149.86 0)
 		(unit 1)
@@ -5176,6 +5237,92 @@
 			(project "Relay OUT Signal switch board"
 				(path "/cc5da66e-0523-4ac5-a4e5-68ab081b8490"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:EC2-5SNU")
+		(at 121.92 60.96 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f8a5109-d1b8-437e-85cf-524df0a903e4")
+		(property "Reference" "K2"
+			(at 121.92 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC2-5SNU"
+			(at 121.92 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Kemet_EC2"
+			(at 121.92 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
+			(at 121.92 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), single coil latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
+			(at 121.92 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d1e1843b-8e6d-4c4c-81f7-42fe92755524")
+		)
+		(pin "4"
+			(uuid "f5ed73a8-4be4-43d8-b784-6ca714ff1fae")
+		)
+		(pin "5"
+			(uuid "9238ba52-ee42-4dd7-85e6-90212a1183a3")
+		)
+		(pin "9"
+			(uuid "5525e4b0-47c6-4b5d-af2c-20a35ebd2f0d")
+		)
+		(pin "12"
+			(uuid "c06e3741-9e3c-4778-bf1c-c5f83b278510")
+		)
+		(pin "3"
+			(uuid "1bc87b01-72e4-4c7c-beb9-f2badd627e88")
+		)
+		(pin "10"
+			(uuid "9ff9a132-3044-4359-bd97-9a08ceed0920")
+		)
+		(pin "1"
+			(uuid "44243e43-64d1-46c2-9500-8e23254471a0")
+		)
+		(instances
+			(project "Relay OUT Signal switch board"
+				(path "/cc5da66e-0523-4ac5-a4e5-68ab081b8490"
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -5501,147 +5648,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NewSamsys:EE2-5NU")
-		(at 127 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b1b124b-cf53-4374-9904-97e20a01991c")
-		(property "Reference" "K1"
-			(at 137.16 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Left Bal"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EE2-5NU"
-			(at 143.51 206.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
-			(at 143.51 306.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "KEMET, EE2, Relays, Signal, 5 V, 220 V, 250 VAC, 2 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"
-			(at 127 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 143.51 506.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-EE2-5NU"
-			(at 143.51 606.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/EE2-5NU?qs=iaWy59%2Fd4KDPVAG7asNi4Q%3D%3D"
-			(at 143.51 706.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 143.51 806.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EE2-5NU"
-			(at 143.51 906.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "09af4fde-b8c8-4f20-b14d-d0cc4de93561")
-		)
-		(pin "1"
-			(uuid "b7233e00-d71a-41e9-bd68-0b81d29d20bf")
-		)
-		(pin "3"
-			(uuid "4c663893-4cb6-409e-85d7-a72da10a4684")
-		)
-		(pin "8"
-			(uuid "e4100ef8-08d4-45f3-bc00-de9642b70ed7")
-		)
-		(pin "5"
-			(uuid "a5cb060f-de50-45de-9cdc-f2bd37cef357")
-		)
-		(pin "2"
-			(uuid "44644405-8cc5-43c4-91d1-7535cfe0110a")
-		)
-		(pin "7"
-			(uuid "f270e602-e092-4a09-9e16-b35451c536e0")
-		)
-		(pin "4"
-			(uuid "c8b07809-e750-4d72-b964-9bc2a619899d")
-		)
-		(instances
-			(project "Relay OUT Signal switch board"
-				(path "/cc5da66e-0523-4ac5-a4e5-68ab081b8490"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NewSamsys:1725669")
-		(at 60.96 128.27 180)
+		(at 60.96 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5650,7 +5658,7 @@
 		(fields_autoplaced yes)
 		(uuid "8dc5d0f8-1d00-4bf9-bf29-4cd2bdfc1f43")
 		(property "Reference" "J13"
-			(at 50.8 115.57 0)
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5666,7 @@
 			)
 		)
 		(property "Value" "1725669"
-			(at 50.8 118.11 0)
+			(at 50.8 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5674,7 @@
 			)
 		)
 		(property "Footprint" "1725669"
-			(at 44.45 33.35 0)
+			(at 44.45 28.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +5684,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725669&library=usen&tab=1"
-			(at 44.45 -66.65 0)
+			(at 44.45 -71.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,7 +5694,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 60.96 128.27 0)
+			(at 60.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5703,7 @@
 			)
 		)
 		(property "Height" "8.65"
-			(at 44.45 -266.65 0)
+			(at 44.45 -271.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5713,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1725669"
-			(at 44.45 -366.65 0)
+			(at 44.45 -371.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +5723,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D"
-			(at 44.45 -466.65 0)
+			(at 44.45 -471.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +5733,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 44.45 -566.65 0)
+			(at 44.45 -571.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5743,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1725669"
-			(at 44.45 -666.65 0)
+			(at 44.45 -671.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5886,146 +5894,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NewSamsys:EE2-5NU")
-		(at 125.73 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d00a0700-4b76-4d40-b559-ce82f39e8623")
-		(property "Reference" "K3"
-			(at 135.89 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Right Bal"
-			(at 135.89 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EE2-5NU"
-			(at 142.24 149.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
-			(at 142.24 249.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "KEMET, EE2, Relays, Signal, 5 V, 220 V, 250 VAC, 2 A, 75 mOhms, 1 GOhms, 15mm, 7.5mm, 10mm"
-			(at 125.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 142.24 449.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-EE2-5NU"
-			(at 142.24 549.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/EE2-5NU?qs=iaWy59%2Fd4KDPVAG7asNi4Q%3D%3D"
-			(at 142.24 649.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 142.24 749.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EE2-5NU"
-			(at 142.24 849.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "7f5fe872-5bcc-4c3e-8f8f-2c694c20ca28")
-		)
-		(pin "7"
-			(uuid "2d189601-5cff-4cea-af61-2ced23291a39")
-		)
-		(pin "1"
-			(uuid "e7b52d96-7d5d-4d03-8995-73c62a65809b")
-		)
-		(pin "8"
-			(uuid "ab15502c-82f7-4b18-9bfb-4a01179ab7d2")
-		)
-		(pin "2"
-			(uuid "1dc79b17-beaf-4b30-b8a6-34e2d3799c2c")
-		)
-		(pin "3"
-			(uuid "ce6066da-d9a4-48c0-9d26-9f0ae77e6e90")
-		)
-		(pin "4"
-			(uuid "6e178e29-b518-4160-9727-9385d79be81a")
-		)
-		(pin "5"
-			(uuid "f479cbf7-c8a0-4c72-a3b3-0e8cf4e56c09")
-		)
-		(instances
-			(project "Relay OUT Signal switch board"
-				(path "/cc5da66e-0523-4ac5-a4e5-68ab081b8490"
-					(reference "K3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 218.44 62.23 0)
+		(at 224.79 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6034,7 +5904,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7bbaba0-a3b2-4199-8c0b-90a7522f15cb")
 		(property "Reference" "#PWR03"
-			(at 218.44 68.58 0)
+			(at 224.79 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +5913,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 218.44 67.31 0)
+			(at 224.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +5921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 62.23 0)
+			(at 224.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +5930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 62.23 0)
+			(at 224.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +5939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 62.23 0)
+			(at 224.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +5961,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 58.42 0)
+		(at 224.79 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6100,7 +5970,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8722ccf-091d-4646-be36-5ce99bd4213d")
 		(property "Reference" "R2"
-			(at 220.98 57.1499 0)
+			(at 227.33 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +5979,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 220.98 59.6899 0)
+			(at 227.33 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +5988,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.662 58.42 90)
+			(at 223.012 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +5997,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 58.42 0)
+			(at 224.79 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,7 +6006,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 58.42 0)
+			(at 224.79 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6031,7 @@
 	)
 	(symbol
 		(lib_id "NewSamsys:1725669")
-		(at 60.96 157.48 180)
+		(at 60.96 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6170,7 +6040,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4bad5de-a02d-4c64-bfc2-3ca7daf490bb")
 		(property "Reference" "J10"
-			(at 50.8 144.78 0)
+			(at 50.8 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6048,7 @@
 			)
 		)
 		(property "Value" "1725669"
-			(at 50.8 147.32 0)
+			(at 50.8 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +6056,7 @@
 			)
 		)
 		(property "Footprint" "1725669"
-			(at 44.45 62.56 0)
+			(at 44.45 58.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6066,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725669&library=usen&tab=1"
-			(at 44.45 -37.44 0)
+			(at 44.45 -41.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,7 +6076,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
-			(at 60.96 157.48 0)
+			(at 60.96 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +6085,7 @@
 			)
 		)
 		(property "Height" "8.65"
-			(at 44.45 -237.44 0)
+			(at 44.45 -241.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6095,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1725669"
-			(at 44.45 -337.44 0)
+			(at 44.45 -341.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6105,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D"
-			(at 44.45 -437.44 0)
+			(at 44.45 -441.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +6115,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 44.45 -537.44 0)
+			(at 44.45 -541.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6125,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1725669"
-			(at 44.45 -637.44 0)
+			(at 44.45 -641.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6154,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 218.44 53.34 90)
+		(at 224.79 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6292,7 +6162,7 @@
 		(dnp no)
 		(uuid "e681f807-4588-4a8a-8dc9-f0dbda465204")
 		(property "Reference" "D2"
-			(at 220.98 50.8 90)
+			(at 227.33 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6301,7 +6171,7 @@
 			)
 		)
 		(property "Value" "LS_R976"
-			(at 220.98 54.5464 90)
+			(at 227.33 54.5464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +6181,7 @@
 			)
 		)
 		(property "Footprint" "samsys:LEDC2012X40N"
-			(at 312.09 40.64 0)
+			(at 318.44 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +6191,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/588/asset_pdf_5057921-3418987.pdf"
-			(at 412.09 40.64 0)
+			(at 418.44 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +6201,7 @@
 			)
 		)
 		(property "Description" "Red 0805 CHIPLED LS R976N-R102 Osram Opto LS R976, CHIPLED 0805 Series Red LED, 633 nm, 2012 (0805), Rectangle Lens SMD Package"
-			(at 218.44 53.34 0)
+			(at 224.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6210,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 612.09 40.64 0)
+			(at 618.44 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +6220,7 @@
 			)
 		)
 		(property "Mouser Part Number" "720-LSR976D5178"
-			(at 712.09 40.64 0)
+			(at 718.44 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6230,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LS-R976?qs=OIr7YF%252B2cWVTfzKl425Fkw%3D%3D"
-			(at 812.09 40.64 0)
+			(at 818.44 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6240,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ams OSRAM"
-			(at 912.09 40.64 0)
+			(at 918.44 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,7 +6250,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LS R976"
-			(at 1012.09 40.64 0)
+			(at 1018.44 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +6260,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 218.44 53.34 0)
+			(at 224.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6269,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 218.44 53.34 0)
+			(at 224.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

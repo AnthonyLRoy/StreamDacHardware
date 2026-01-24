@@ -1094,7 +1094,7 @@
 				)
 			)
 		)
-		(symbol "NewSamsys:1725672"
+		(symbol "NewSamsys:1725669"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1107,7 +1107,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "1725672"
+			(property "Value" "1725669"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -1116,7 +1116,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "1725672"
+			(property "Footprint" "1725669"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -1126,7 +1126,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-4-254-1725672?type=pdf"
+			(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725669&library=usen&tab=1"
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -1136,7 +1136,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4 way vertical PCB terminal,6A 63V Phoenix Contact Non-Fused Terminal Block, 4 Way, Solder Terminals, 26 ??? 20 AWG Through Hole, Nylon, 63 V"
+			(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1155,7 +1155,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "651-1725672"
+			(property "Mouser Part Number" "651-1725669"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -1165,7 +1165,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725672?qs=Ul7CXFMnlWXX93F9bOV2pQ%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -1185,7 +1185,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "1725672"
+			(property "Manufacturer_Part_Number" "1725669"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -1195,10 +1195,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "1725672_1_1"
+			(symbol "1725669_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -10.16)
+					(end 15.24 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1254,24 +1254,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1721,12 +1703,6 @@
 		(uuid "15d951ad-03f4-4677-baf8-4f11e743e278")
 	)
 	(junction
-		(at 109.22 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16d09b8a-fabf-4014-952d-6d0c90dcfc35")
-	)
-	(junction
 		(at 236.22 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1847,22 +1823,10 @@
 		(uuid "7d59bdf8-5d91-4eb5-b76d-e9f951066504")
 	)
 	(junction
-		(at 293.37 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86b1f5c3-1344-4c97-b9fe-9f350bdeb3da")
-	)
-	(junction
 		(at 124.46 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a2c33ca-e362-499b-92c9-b7d9eff5612b")
-	)
-	(junction
-		(at 109.22 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9257d733-e843-4c61-a53d-9bc0df9b315d")
 	)
 	(junction
 		(at 195.58 66.04)
@@ -2194,16 +2158,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 208.28) (xy 110.49 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eb2a6a3-4db6-40c6-8f4d-69b3ed68e360")
-	)
-	(wire
-		(pts
 			(xy 215.9 186.69) (xy 215.9 175.26)
 		)
 		(stroke
@@ -2214,7 +2168,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 129.54) (xy 114.3 129.54)
+			(xy 109.22 128.27) (xy 114.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2264,6 +2218,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 207.01) (xy 110.49 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347e8840-77a5-44ae-adaf-35482f408653")
+	)
+	(wire
+		(pts
 			(xy 288.29 160.02) (xy 288.29 166.37)
 		)
 		(stroke
@@ -2284,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 143.51) (xy 293.37 156.21)
+			(xy 293.37 143.51) (xy 293.37 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2344,7 +2308,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 200.66) (xy 110.49 200.66)
+			(xy 109.22 201.93) (xy 110.49 201.93)
 		)
 		(stroke
 			(width 0)
@@ -2411,6 +2375,16 @@
 			(type default)
 		)
 		(uuid "54827fda-9f6d-465b-9125-983dc2aa44d6")
+	)
+	(wire
+		(pts
+			(xy 109.22 130.81) (xy 109.22 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c56610-0496-48e5-acc5-5f5936e59659")
 	)
 	(wire
 		(pts
@@ -2614,16 +2588,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 129.54) (xy 109.22 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "784ab56e-460e-46f2-8d74-e1c3e842284f")
-	)
-	(wire
-		(pts
 			(xy 153.67 186.69) (xy 153.67 177.8)
 		)
 		(stroke
@@ -2734,16 +2698,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 128.27) (xy 109.22 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a6b7721-31e0-4b22-99eb-13c0f0a45fe1")
-	)
-	(wire
-		(pts
 			(xy 236.22 59.69) (xy 236.22 66.04)
 		)
 		(stroke
@@ -2761,16 +2715,6 @@
 			(type default)
 		)
 		(uuid "8b03712e-863a-4fe8-a22e-951941046b97")
-	)
-	(wire
-		(pts
-			(xy 109.22 133.35) (xy 109.22 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c07fc87-3b8c-40c1-b651-fbb616037edf")
 	)
 	(wire
 		(pts
@@ -2894,16 +2838,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 160.02) (xy 293.37 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d29e790-2353-40f0-b3e0-332232c03e6d")
-	)
-	(wire
-		(pts
 			(xy 215.9 175.26) (xy 201.93 175.26)
 		)
 		(stroke
@@ -2951,16 +2885,6 @@
 			(type default)
 		)
 		(uuid "a19c8fc7-11af-4ee3-9599-9d4730db00aa")
-	)
-	(wire
-		(pts
-			(xy 109.22 203.2) (xy 109.22 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4943fe8-1f9e-4ae1-a04b-63795f513daa")
 	)
 	(wire
 		(pts
@@ -3024,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 129.54) (xy 114.3 135.89)
+			(xy 114.3 128.27) (xy 114.3 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3054,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 200.66) (xy 110.49 189.23)
+			(xy 110.49 201.93) (xy 110.49 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3174,7 +3098,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 208.28) (xy 110.49 226.06)
+			(xy 110.49 207.01) (xy 110.49 226.06)
 		)
 		(stroke
 			(width 0)
@@ -3344,16 +3268,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 204.47) (xy 109.22 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8834daa-984c-4355-82ab-46bb1b70f9af")
-	)
-	(wire
-		(pts
 			(xy 288.29 160.02) (xy 293.37 160.02)
 		)
 		(stroke
@@ -3394,7 +3308,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 203.2) (xy 293.37 163.83)
+			(xy 293.37 162.56) (xy 293.37 203.2)
 		)
 		(stroke
 			(width 0)
@@ -3441,16 +3355,6 @@
 			(type default)
 		)
 		(uuid "f9de8a32-09a8-43c4-9590-3686f272d962")
-	)
-	(wire
-		(pts
-			(xy 293.37 158.75) (xy 293.37 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa4f81be-1bf8-4606-9144-41f2166ac87a")
 	)
 	(wire
 		(pts
@@ -3623,6 +3527,131 @@
 			(justify left bottom)
 		)
 		(uuid "f86aeed6-2127-492b-b3aa-fe9de210cf42")
+	)
+	(symbol
+		(lib_id "NewSamsys:1725669")
+		(at 293.37 162.56 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07399267-f7b2-4ca4-9b87-442add951c6b")
+		(property "Reference" "J8"
+			(at 309.88 161.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1725669"
+			(at 309.88 158.7501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1725669"
+			(at 309.88 67.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725669&library=usen&tab=1"
+			(at 309.88 -32.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+			(at 293.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.65"
+			(at 309.88 -232.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1725669"
+			(at 309.88 -332.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D"
+			(at 309.88 -432.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 309.88 -532.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1725669"
+			(at 309.88 -632.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5403104e-4167-4b9a-bd9e-dcddaa67b162")
+		)
+		(pin "2"
+			(uuid "0b9cda57-3af2-4fc1-9ea1-80090766b4de")
+		)
+		(pin "3"
+			(uuid "a58ae911-6f16-4c2b-aaac-c9af07225433")
+		)
+		(instances
+			(project "Diff_to_singleEnded"
+				(path "/36021313-55cb-439e-8803-136b9fb679e6"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4438,132 +4467,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NewSamsys:1725672")
-		(at 109.22 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dfeaddc-a7e9-4997-bff8-7be9b3f8d8f6")
-		(property "Reference" "J4"
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1725672"
-			(at 99.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "1725672"
-			(at 92.71 38.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-4-254-1725672?type=pdf"
-			(at 92.71 -61.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 way vertical PCB terminal,6A 63V Phoenix Contact Non-Fused Terminal Block, 4 Way, Solder Terminals, 26 ??? 20 AWG Through Hole, Nylon, 63 V"
-			(at 109.22 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.65"
-			(at 92.71 -261.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1725672"
-			(at 92.71 -361.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725672?qs=Ul7CXFMnlWXX93F9bOV2pQ%3D%3D"
-			(at 92.71 -461.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 92.71 -561.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1725672"
-			(at 92.71 -661.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3e79b85e-a49e-4f7d-a9d6-45caeb38ff70")
-		)
-		(pin "1"
-			(uuid "c9edb7d1-47c6-402e-9c93-9715b1e02060")
-		)
-		(pin "4"
-			(uuid "9ba30b34-d51f-4bae-a04d-b19d9edf4c88")
-		)
-		(pin "2"
-			(uuid "07acbd06-4653-497a-8445-b11dabfb8d4e")
-		)
-		(instances
-			(project "Diff_to_singleEnded"
-				(path "/36021313-55cb-439e-8803-136b9fb679e6"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 195.58 39.37 0)
 		(unit 1)
@@ -4784,132 +4687,6 @@
 			(project "Diff_to_singleEnded"
 				(path "/36021313-55cb-439e-8803-136b9fb679e6"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NewSamsys:1725672")
-		(at 109.22 208.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2aa15e6f-9b9e-4027-88e7-8e2508f6c78a")
-		(property "Reference" "J5"
-			(at 99.06 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1725672"
-			(at 99.06 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "1725672"
-			(at 92.71 113.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-4-254-1725672?type=pdf"
-			(at 92.71 13.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 way vertical PCB terminal,6A 63V Phoenix Contact Non-Fused Terminal Block, 4 Way, Solder Terminals, 26 ??? 20 AWG Through Hole, Nylon, 63 V"
-			(at 109.22 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.65"
-			(at 92.71 -186.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1725672"
-			(at 92.71 -286.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725672?qs=Ul7CXFMnlWXX93F9bOV2pQ%3D%3D"
-			(at 92.71 -386.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 92.71 -486.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1725672"
-			(at 92.71 -586.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "58852636-afc1-4c7a-94cd-73ff316e8049")
-		)
-		(pin "1"
-			(uuid "7e9dad51-e417-4d11-92a7-084cd4a9a406")
-		)
-		(pin "4"
-			(uuid "47077ca1-81f5-477f-a2c3-37bfc6dee6dc")
-		)
-		(pin "2"
-			(uuid "943f78ac-0a3f-4a2e-a4c8-13da27599d5e")
-		)
-		(instances
-			(project "Diff_to_singleEnded"
-				(path "/36021313-55cb-439e-8803-136b9fb679e6"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6325,6 +6102,129 @@
 		)
 	)
 	(symbol
+		(lib_id "NewSamsys:1725669")
+		(at 109.22 201.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b927bf7-0258-478e-8b59-93e48ab6e98a")
+		(property "Reference" "J7"
+			(at 99.06 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1725669"
+			(at 99.06 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1725669"
+			(at 92.71 296.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725669&library=usen&tab=1"
+			(at 92.71 396.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+			(at 109.22 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.65"
+			(at 92.71 596.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1725669"
+			(at 92.71 696.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D"
+			(at 92.71 796.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 92.71 896.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1725669"
+			(at 92.71 996.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13b580ee-72cb-4db3-9556-8b3ffa54004d")
+		)
+		(pin "2"
+			(uuid "fa6245e5-de25-4074-8d7c-062d9917b779")
+		)
+		(pin "3"
+			(uuid "59eedb81-39ac-4e99-8d23-667717f5439f")
+		)
+		(instances
+			(project "Diff_to_singleEnded"
+				(path "/36021313-55cb-439e-8803-136b9fb679e6"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA1692xD")
 		(at 195.58 50.8 0)
 		(unit 3)
@@ -7444,6 +7344,129 @@
 		)
 	)
 	(symbol
+		(lib_id "NewSamsys:1725669")
+		(at 109.22 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0f7dbd1-1409-4c42-b80c-8b120e29ca47")
+		(property "Reference" "J6"
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1725669"
+			(at 99.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1725669"
+			(at 92.71 220.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725669&library=usen&tab=1"
+			(at 92.71 320.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+			(at 109.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.65"
+			(at 92.71 520.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1725669"
+			(at 92.71 620.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D"
+			(at 92.71 720.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 92.71 820.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1725669"
+			(at 92.71 920.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a77f6d4-e7a6-4c41-b672-a94b63fae32d")
+		)
+		(pin "2"
+			(uuid "320b3fe9-063a-4777-8544-fa5567785b3f")
+		)
+		(pin "3"
+			(uuid "ad3e5a69-9460-46a5-8710-58fd4415cc73")
+		)
+		(instances
+			(project "Diff_to_singleEnded"
+				(path "/36021313-55cb-439e-8803-136b9fb679e6"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 129.54 0)
 		(unit 1)
@@ -7640,134 +7663,6 @@
 			(project "Diff_to_singleEnded"
 				(path "/36021313-55cb-439e-8803-136b9fb679e6"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NewSamsys:1725672")
-		(at 293.37 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c051cf78-4c28-4413-8ee0-a4f9c352155d")
-		(property "Reference" "J3"
-			(at 309.88 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1725672"
-			(at 309.88 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1725672"
-			(at 309.88 251.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-4-254-1725672?type=pdf"
-			(at 309.88 351.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 way vertical PCB terminal,6A 63V Phoenix Contact Non-Fused Terminal Block, 4 Way, Solder Terminals, 26 ??? 20 AWG Through Hole, Nylon, 63 V"
-			(at 293.37 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.65"
-			(at 309.88 551.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1725672"
-			(at 309.88 651.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725672?qs=Ul7CXFMnlWXX93F9bOV2pQ%3D%3D"
-			(at 309.88 751.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 309.88 851.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1725672"
-			(at 309.88 951.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "654b6ff1-7b38-4b30-8b2e-5e40f0f8f2cb")
-		)
-		(pin "1"
-			(uuid "a7a3a70e-60a2-4951-8686-2a2b85407776")
-		)
-		(pin "4"
-			(uuid "db13ffb9-4f9a-4483-849b-d5c8d3cac6cb")
-		)
-		(pin "2"
-			(uuid "a4097294-80ec-4aa3-8389-b3e45f7dedb5")
-		)
-		(instances
-			(project "Diff_to_singleEnded"
-				(path "/36021313-55cb-439e-8803-136b9fb679e6"
-					(reference "J3")
 					(unit 1)
 				)
 			)
