@@ -127,210 +127,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x03_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
-					(mid -0.5058 2.54)
-					(end 0 2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -1708,164 +1504,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2254,6 +1892,469 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "NewSamsys:1725669"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1725669"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "1725669"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725669&library=usen&tab=1"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.65"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "651-1725669"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Phoenix Contact"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1725669"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1725669_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NewSamsys:RNU1C331MDN1KX"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RNU1C331MDN1KX"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPPRD350W60D800H1300"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-9/176673.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Aluminum Organic Polymer Capacitors 330uF 16V 20%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "13"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "647-RNU1C331MDN1KX"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1C331MDN1KX?qs=JgOBn5pVFoqMvXM4AjuXwA%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nichicon"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RNU1C331MDN1KX"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RNU1C331MDN1KX_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "NewSamsys:U.FL-R-SMT-1_80_"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2543,102 +2644,6 @@
 				)
 			)
 		)
-		(symbol "power:GND2"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
@@ -2737,12 +2742,6 @@
 		)
 	)
 	(junction
-		(at 195.58 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04ea0379-aaa2-4403-aa17-2196cccf5a38")
-	)
-	(junction
 		(at 222.25 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2761,6 +2760,18 @@
 		(uuid "124127fb-defe-44bb-80b7-890972a2d423")
 	)
 	(junction
+		(at 186.69 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18c8b878-ee4c-4ddb-a262-4cca46730ba5")
+	)
+	(junction
+		(at 162.56 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a3cdf96-3c31-4216-a495-86eaf93d9653")
+	)
+	(junction
 		(at 240.03 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2777,6 +2788,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2909c219-3fda-4584-a77f-93d9c43c9218")
+	)
+	(junction
+		(at 173.99 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33a90287-82af-4568-a9ea-dbd27da048bd")
 	)
 	(junction
 		(at 241.3 90.17)
@@ -2809,22 +2826,16 @@
 		(uuid "53416c07-e1b9-4a67-a053-8ca1671baa62")
 	)
 	(junction
-		(at 175.26 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "543b14bd-fd60-44ef-ad77-c26dc4e1fc30")
-	)
-	(junction
 		(at 76.2 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5530938f-0b9e-40cb-b85c-9af3951f11dd")
 	)
 	(junction
-		(at 109.22 27.94)
+		(at 133.35 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "599f147b-c351-4871-a14d-9483e7cccf9a")
+		(uuid "56426676-a85f-4c3b-87e6-6db1095daf6d")
 	)
 	(junction
 		(at 231.14 27.94)
@@ -2839,16 +2850,10 @@
 		(uuid "65498ad1-7d1f-4015-91ee-1f6e8fc04964")
 	)
 	(junction
-		(at 132.08 27.94)
+		(at 184.15 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ff07d30-b3ba-427e-805d-247319758299")
-	)
-	(junction
-		(at 175.26 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73be10ee-fcf6-4f88-b174-81a88e76e35f")
+		(uuid "72a9028d-c7bc-41d4-8a27-02d8f3404c72")
 	)
 	(junction
 		(at 143.51 27.94)
@@ -2869,22 +2874,10 @@
 		(uuid "87027db0-aa7c-4dac-a13a-ccb9178d86e8")
 	)
 	(junction
-		(at 184.15 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9abdc4e3-5372-4a97-80f5-067ec37d5821")
-	)
-	(junction
 		(at 151.13 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b12a734-8106-457d-ad2d-be93a94a587e")
-	)
-	(junction
-		(at 165.1 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2682626-ea54-438c-a745-c5b43a2339ca")
 	)
 	(junction
 		(at 241.3 78.74)
@@ -2911,16 +2904,16 @@
 		(uuid "b3fee6cb-445f-4022-b2e7-83a8644d1f9b")
 	)
 	(junction
-		(at 165.1 35.56)
+		(at 186.69 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c27f784d-753b-4d8c-a865-acdf87883dcf")
+		(uuid "c58f1bc2-7ec5-4bf4-a430-9c1d5d2929c5")
 	)
 	(junction
-		(at 185.42 35.56)
+		(at 199.39 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c77c3568-62fc-457e-a125-d131770d4e7c")
+		(uuid "c873075c-2b58-4a38-bc14-fa3f6df734b9")
 	)
 	(junction
 		(at 224.79 27.94)
@@ -2947,10 +2940,16 @@
 		(uuid "eaa6f4e8-fdee-4c0f-8132-6de4c98de678")
 	)
 	(junction
-		(at 185.42 27.94)
+		(at 173.99 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eb79c881-25d3-4aa5-abba-af148662880e")
+		(uuid "eecd1b7f-aa7e-419a-a44d-e9d3062af3f0")
+	)
+	(junction
+		(at 162.56 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5fe6ac7-b6d5-49a2-a016-4f8bf92370cc")
 	)
 	(no_connect
 		(at 100.33 71.12)
@@ -3003,6 +3002,10 @@
 	(no_connect
 		(at 31.75 53.34)
 		(uuid "8cb5735b-088c-4872-8f63-d7e6972da41a")
+	)
+	(no_connect
+		(at 115.57 27.94)
+		(uuid "8f3e5e3e-d57e-4e42-8814-218d7752661a")
 	)
 	(no_connect
 		(at 31.75 68.58)
@@ -3074,6 +3077,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 27.94) (xy 143.51 27.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "096fcb9d-1851-467a-b9b5-afcefe2e2a6a")
+	)
+	(wire
+		(pts
 			(xy 222.25 66.04) (xy 222.25 64.77)
 		)
 		(stroke
@@ -3114,6 +3127,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 27.94) (xy 199.39 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162d6831-9dd8-4519-af41-0bba83bee587")
+	)
+	(wire
+		(pts
 			(xy 163.83 102.87) (xy 182.88 102.87)
 		)
 		(stroke
@@ -3144,16 +3167,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 27.94) (xy 132.08 27.94)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "19b6cc8b-510c-4be9-ae2b-8cba851345cd")
-	)
-	(wire
-		(pts
 			(xy 222.25 104.14) (xy 222.25 102.87)
 		)
 		(stroke
@@ -3174,16 +3187,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 35.56) (xy 165.1 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "240ecb70-c26b-424f-8323-da3819d4011e")
-	)
-	(wire
-		(pts
 			(xy 73.66 73.66) (xy 100.33 73.66)
 		)
 		(stroke
@@ -3201,6 +3204,16 @@
 			(type solid)
 		)
 		(uuid "2478492b-d9df-4d39-b197-ec032aac760a")
+	)
+	(wire
+		(pts
+			(xy 199.39 27.94) (xy 215.9 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2621ab62-58f4-4996-9cfc-e3eda48ab5b7")
 	)
 	(wire
 		(pts
@@ -3241,6 +3254,16 @@
 			(type solid)
 		)
 		(uuid "2bf0f8ed-8dd2-40c9-9f82-0160951f70e5")
+	)
+	(wire
+		(pts
+			(xy 173.99 27.94) (xy 186.69 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c347f83-55d4-434e-bd8a-acf1ab500b98")
 	)
 	(wire
 		(pts
@@ -3334,6 +3357,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 27.94) (xy 133.35 27.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3eef87d0-5ec5-4089-a149-a80122fd460b")
+	)
+	(wire
+		(pts
 			(xy 58.42 76.2) (xy 60.96 76.2)
 		)
 		(stroke
@@ -3354,16 +3387,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 35.56) (xy 175.26 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "469ca3d3-4fcc-49e5-9a4e-17b8fadf18e9")
-	)
-	(wire
-		(pts
 			(xy 240.03 40.64) (xy 240.03 36.83)
 		)
 		(stroke
@@ -3371,6 +3394,16 @@
 			(type default)
 		)
 		(uuid "48109476-ea0d-4006-8c95-1194b0dd3dc3")
+	)
+	(wire
+		(pts
+			(xy 162.56 27.94) (xy 173.99 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d18c2c-0570-49ae-8101-abfec6f505b6")
 	)
 	(wire
 		(pts
@@ -3411,16 +3444,6 @@
 			(type default)
 		)
 		(uuid "5bd2b5ea-ab51-4db1-b05c-a9cb127c9901")
-	)
-	(wire
-		(pts
-			(xy 132.08 27.94) (xy 143.51 27.94)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "5c1b65f4-b9fe-402d-a45c-86258d8880ae")
 	)
 	(wire
 		(pts
@@ -3504,6 +3527,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 40.64) (xy 151.13 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c04879-0500-4811-95f8-cf079aff0c46")
+	)
+	(wire
+		(pts
 			(xy 31.75 33.02) (xy 60.96 33.02)
 		)
 		(stroke
@@ -3574,7 +3607,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 27.94) (xy 115.57 27.94)
+			(xy 76.2 27.94) (xy 115.57 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3584,7 +3617,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 43.18) (xy 184.15 35.56)
+			(xy 184.15 43.18) (xy 184.15 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3594,27 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 27.94) (xy 109.22 27.94)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "71578e5d-65e0-4a42-a704-0e6c8a484921")
-	)
-	(wire
-		(pts
-			(xy 165.1 27.94) (xy 175.26 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71cc3446-c59d-457f-a6bf-6c365fd08ffc")
-	)
-	(wire
-		(pts
-			(xy 184.15 35.56) (xy 185.42 35.56)
+			(xy 184.15 40.64) (xy 186.69 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3644,13 +3657,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 27.94) (xy 185.42 27.94)
+			(xy 162.56 40.64) (xy 173.99 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79a5d2a7-26fb-404c-a2e5-3dc1ba25a9ad")
+		(uuid "7edf05cb-9100-4ee6-9747-4f2810a75d89")
 	)
 	(wire
 		(pts
@@ -3664,17 +3677,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 27.94) (xy 195.58 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "809d0986-2f8d-4752-b800-e35a4443aa62")
-	)
-	(wire
-		(pts
-			(xy 195.58 27.94) (xy 215.9 27.94)
+			(xy 151.13 27.94) (xy 162.56 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3731,16 +3734,6 @@
 			(type solid)
 		)
 		(uuid "8eea31d6-b86b-416f-878c-6e21cb195c88")
-	)
-	(wire
-		(pts
-			(xy 151.13 27.94) (xy 165.1 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9216f78e-c23f-4664-b80e-79c80261e2da")
 	)
 	(wire
 		(pts
@@ -3824,6 +3817,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 40.64) (xy 184.15 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cc465a-3508-433f-b08b-e0d2716aeaeb")
+	)
+	(wire
+		(pts
+			(xy 186.69 40.64) (xy 199.39 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7112242-ae6e-43b8-a80b-fce071c2e241")
+	)
+	(wire
+		(pts
 			(xy 163.83 115.57) (xy 182.88 115.57)
 		)
 		(stroke
@@ -3881,16 +3894,6 @@
 			(type solid)
 		)
 		(uuid "c3882c52-aa29-4495-bcaa-946695ee2412")
-	)
-	(wire
-		(pts
-			(xy 185.42 35.56) (xy 195.58 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c502e449-5199-4396-98a7-5813139a3b7d")
 	)
 	(wire
 		(pts
@@ -4004,7 +4007,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 35.56) (xy 184.15 35.56)
+			(xy 151.13 40.64) (xy 162.56 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4121,6 +4124,17 @@
 			(type solid)
 		)
 		(uuid "fa77ceab-566d-4533-8668-7e69f9664f1f")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 40.64 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "1843aa13-4523-4f2f-bc03-8a203d0b44c6")
 	)
 	(text "Additional pin functions:\nhttps://pinout.xyz/"
 		(exclude_from_sim no)
@@ -4700,70 +4714,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 137.16 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "059bbbac-23ed-4ceb-8cc5-e55df56fe14d")
-		(property "Reference" "J11"
-			(at 137.16 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5v pin"
-			(at 137.16 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
-			(at 137.16 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 137.16 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96b25612-c3fe-41f5-9da3-f4060f9a2585")
-		)
-		(instances
-			(project "RPI4_is2Power"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 186.69 102.87 90)
 		(unit 1)
@@ -4893,6 +4843,128 @@
 			(project "RPI4_is2Power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NewSamsys:RNU1C331MDN1KX")
+		(at 173.99 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1671150b-5811-457b-9c67-b9fe5a5b72d1")
+		(property "Reference" "C4"
+			(at 177.8 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330u"
+			(at 177.8 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD350W60D800H1300"
+			(at 77.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-9/176673.pdf"
+			(at -22.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Organic Polymer Capacitors 330uF 16V 20%"
+			(at 173.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13"
+			(at -222.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "647-RNU1C331MDN1KX"
+			(at -322.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1C331MDN1KX?qs=JgOBn5pVFoqMvXM4AjuXwA%3D%3D"
+			(at -422.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nichicon"
+			(at -522.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RNU1C331MDN1KX"
+			(at -622.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87d97311-2645-4355-aaa7-8eae8d39b640")
+		)
+		(pin "2"
+			(uuid "9fa65db2-75e9-4ad0-924d-0f50718e40f4")
+		)
+		(instances
+			(project "RPI4_is2Power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5225,15 +5297,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 109.22 33.02 90)
+		(at 125.73 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4820173f-6f87-4abe-a66f-db73905a2bbb")
-		(property "Reference" "J10"
-			(at 107.95 35.56 90)
+		(fields_autoplaced yes)
+		(uuid "4a492c7b-6018-4aa0-bfd5-7e4fb82deb0e")
+		(property "Reference" "J8"
+			(at 127 31.1149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,17 +5314,18 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5v pin"
-			(at 107.95 38.1 90)
+		(property "Value" "Conn_01x01_Pin"
+			(at 127 33.6549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
-			(at 109.22 33.02 0)
+		(property "Footprint" "Connector_Pin:Pin_D1.2mm_L11.3mm_W3.0mm_Flat"
+			(at 125.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 33.02 0)
+			(at 125.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +5343,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 109.22 33.02 0)
+			(at 125.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,81 +5352,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "654e0518-237b-4ed2-920a-d548889cb9c6")
+			(uuid "85201967-6120-43d3-a1c1-1cbca7083e77")
 		)
 		(instances
 			(project "RPI4_is2Power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 175.26 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "536a4efe-e4a0-4048-9d82-925c94c23988")
-		(property "Reference" "C5"
-			(at 179.07 29.5909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u"
-			(at 179.07 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 176.2252 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 175.26 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4342c334-ed44-4cff-83cd-addc09bec5a0")
-		)
-		(pin "1"
-			(uuid "2eddfd3a-2894-4b84-ae68-278f0d6abe55")
-		)
-		(instances
-			(project "RPI4_is2Power"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C5")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5368,7 +5373,7 @@
 		(dnp no)
 		(uuid "5c4d5958-a263-4774-9bd2-83a587c2f53f")
 		(property "Reference" "D1"
-			(at 218.44 27.94 90)
+			(at 218.44 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,6 +5504,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 71.12 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63926986-8809-4e2c-8200-ffbd5fa20c71")
+		(property "Reference" "H4"
+			(at 73.66 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 73.66 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RPI4_is2Power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 186.69 115.57 90)
 		(unit 1)
@@ -5567,16 +5654,139 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 132.08 33.02 90)
+		(lib_id "NewSamsys:RNU1C331MDN1KX")
+		(at 162.56 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6eaa04f0-3303-431c-b35d-15c09a781566")
+		(fields_autoplaced yes)
+		(uuid "6467c55a-fdb5-4127-a00e-25abe5dc8629")
+		(property "Reference" "C1"
+			(at 166.37 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330u"
+			(at 166.37 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD350W60D800H1300"
+			(at 66.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-9/176673.pdf"
+			(at -33.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Organic Polymer Capacitors 330uF 16V 20%"
+			(at 162.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13"
+			(at -233.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "647-RNU1C331MDN1KX"
+			(at -333.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1C331MDN1KX?qs=JgOBn5pVFoqMvXM4AjuXwA%3D%3D"
+			(at -433.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nichicon"
+			(at -533.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RNU1C331MDN1KX"
+			(at -633.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1205868-a22e-45ed-9817-688985545255")
+		)
+		(pin "2"
+			(uuid "479c4189-8c8e-4422-94c8-ae3794b73d6e")
+		)
+		(instances
+			(project "RPI4_is2Power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 133.35 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73741418-5f6c-4c68-a605-fe6e554b5fb5")
 		(property "Reference" "J9"
-			(at 130.81 35.56 90)
+			(at 134.62 31.1149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,17 +5794,18 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5v pin"
-			(at 130.81 38.1 90)
+		(property "Value" "Conn_01x01_Pin"
+			(at 134.62 33.6549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
-			(at 132.08 33.02 0)
+		(property "Footprint" "Connector_Pin:Pin_D1.2mm_L11.3mm_W3.0mm_Flat"
+			(at 133.35 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 33.02 0)
+			(at 133.35 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5823,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 132.08 33.02 0)
+			(at 133.35 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,12 +5832,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "76e6d329-d12b-432c-8f49-f674efe1ce49")
+			(uuid "04fa6989-3642-4116-9bbf-b43a4b364d93")
 		)
 		(instances
 			(project "RPI4_is2Power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 52.07 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74828361-9d76-4b90-9831-40aa4bb45cbb")
+		(property "Reference" "H1"
+			(at 54.61 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 54.61 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RPI4_is2Power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5762,6 +6055,88 @@
 			(project "RPI4_is2Power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 52.07 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ad6356e-585c-4a50-a10b-70c6737c2a36")
+		(property "Reference" "H2"
+			(at 54.61 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 54.61 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" ""
+			(at 52.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RPI4_is2Power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5957,75 +6332,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 195.58 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9830fc6e-2a85-415e-acc2-643875420726")
-		(property "Reference" "C7"
-			(at 199.39 29.5909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u"
-			(at 199.39 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 196.5452 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 195.58 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9e4662ed-2a41-468e-8108-5bc682139ac5")
-		)
-		(pin "1"
-			(uuid "61684f47-c358-4d4a-a9c6-7e123e45a15e")
-		)
-		(instances
-			(project "RPI4_is2Power"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 143.51 31.75 0)
 		(unit 1)
@@ -6089,72 +6395,6 @@
 			(project "RPI4_is2Power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 115.57 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1570602-2a5b-4bf7-9084-7758f4c965e7")
-		(property "Reference" "J12"
-			(at 114.3 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5v pin"
-			(at 114.3 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
-			(at 115.57 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 115.57 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f210582-6e57-4d6c-aec3-0521ada007b5")
-		)
-		(instances
-			(project "RPI4_is2Power"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -6419,136 +6659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 137.16 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a74e19c5-a26b-4cc0-9327-d6e1469550b1")
-		(property "Reference" "#PWR04"
-			(at 137.16 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 137.16 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 137.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7fa212f-ff01-48ca-a7d8-dbc6b806b034")
-		)
-		(instances
-			(project "RPI4_is2Power"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 125.73 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b24303be-c5be-4431-ac13-6564f59c6215")
-		(property "Reference" "J8"
-			(at 125.73 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5v pin"
-			(at 125.73 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
-			(at 125.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 125.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fc9b536-1662-4e4f-8d29-02fdca9f796d")
-		)
-		(instances
-			(project "RPI4_is2Power"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NewSamsys:U.FL-R-SMT-1_80_")
 		(at 194.31 88.9 0)
 		(unit 1)
@@ -6673,6 +6783,131 @@
 		)
 	)
 	(symbol
+		(lib_id "NewSamsys:1725669")
+		(at 240.03 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd35cc17-41ba-41a0-8440-29017ab98b73")
+		(property "Reference" "J2"
+			(at 256.54 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1725669"
+			(at 256.54 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1725669"
+			(at 256.54 122.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1725669&library=usen&tab=1"
+			(at 256.54 222.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+			(at 240.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.65"
+			(at 256.54 422.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1725669"
+			(at 256.54 522.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1725669?qs=A%2FKWGUWTCZjmkTL0Oe91ew%3D%3D"
+			(at 256.54 622.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 256.54 722.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1725669"
+			(at 256.54 822.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aedf79e7-3e78-48a9-8c1f-f0c487d30fd5")
+		)
+		(pin "3"
+			(uuid "72e4952a-db1e-4739-a2dc-f8e7cae43ce2")
+		)
+		(pin "1"
+			(uuid "d101988a-2991-47f5-bf56-94ee077fae45")
+		)
+		(instances
+			(project "RPI4_is2Power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 240.03 41.91 0)
@@ -6734,148 +6969,6 @@
 			(project "RPI4_is2Power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 245.11 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8123176-9e8d-46a1-b009-eb145e3f85d9")
-		(property "Reference" "J2"
-			(at 246.38 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 246.38 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "samsys:PCB Wired Socket"
-			(at 245.11 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 245.11 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c12f6507-59d9-4a52-97ed-8cef19622656")
-		)
-		(pin "2"
-			(uuid "ddf2342b-87dd-4314-a477-b84afcaafc2c")
-		)
-		(pin "1"
-			(uuid "668a4b33-9079-46d8-b775-fd30ebde32f9")
-		)
-		(instances
-			(project "RPI4_is2Power"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 185.42 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6371598-f608-4817-ba40-7003faede0cc")
-		(property "Reference" "C6"
-			(at 189.23 29.5909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u"
-			(at 189.23 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 186.3852 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 185.42 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6b42486c-e87b-42d0-baf5-320a0011319a")
-		)
-		(pin "1"
-			(uuid "f9486335-eab5-47b6-af76-8405e0c7f57e")
-		)
-		(instances
-			(project "RPI4_is2Power"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7073,16 +7166,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 165.1 31.75 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 71.12 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "df11b06f-17f7-4974-bf87-baf9dd7202e3")
-		(property "Reference" "C4"
-			(at 168.91 29.5909 0)
+		(fields_autoplaced yes)
+		(uuid "db66753c-beee-40b3-8fc5-595f65c3d6b2")
+		(property "Reference" "H3"
+			(at 73.66 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,8 +7184,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
-			(at 168.91 34.29 0)
+		(property "Value" "MountingHole"
+			(at 73.66 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,8 +7193,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 166.0652 35.56 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 71.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,7 +7203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 31.75 0)
+			(at 71.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,8 +7211,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 165.1 31.75 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 71.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,16 +7220,28 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "c6303fe9-5051-441d-a668-89da665234cc")
+		(property "Mfr" ""
+			(at 71.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "d7b7ac10-7bcb-4a70-bf2d-9fda3c71fd41")
+		(property "mouser" ""
+			(at 71.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(instances
 			(project "RPI4_is2Power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -7206,6 +7312,250 @@
 			(project "RPI4_is2Power"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NewSamsys:RNU1C331MDN1KX")
+		(at 199.39 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e78b70ff-4652-4bd6-9310-029015457fc1")
+		(property "Reference" "C6"
+			(at 203.2 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330u"
+			(at 203.2 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD350W60D800H1300"
+			(at 103.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-9/176673.pdf"
+			(at 3.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Organic Polymer Capacitors 330uF 16V 20%"
+			(at 199.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13"
+			(at -196.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "647-RNU1C331MDN1KX"
+			(at -296.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1C331MDN1KX?qs=JgOBn5pVFoqMvXM4AjuXwA%3D%3D"
+			(at -396.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nichicon"
+			(at -496.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RNU1C331MDN1KX"
+			(at -596.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fb1de97-41b4-487b-b770-538e9ee10ef4")
+		)
+		(pin "2"
+			(uuid "621639df-0c2f-4f7a-a17d-36b577618e50")
+		)
+		(instances
+			(project "RPI4_is2Power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NewSamsys:RNU1C331MDN1KX")
+		(at 186.69 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3538dc0-9c39-4748-998e-e2cbad0572bb")
+		(property "Reference" "C5"
+			(at 190.5 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330u"
+			(at 190.5 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD350W60D800H1300"
+			(at 90.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-9/176673.pdf"
+			(at -9.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Organic Polymer Capacitors 330uF 16V 20%"
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13"
+			(at -209.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "647-RNU1C331MDN1KX"
+			(at -309.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/RNU1C331MDN1KX?qs=JgOBn5pVFoqMvXM4AjuXwA%3D%3D"
+			(at -409.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nichicon"
+			(at -509.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RNU1C331MDN1KX"
+			(at -609.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02da2683-e8ee-4481-aea2-611199e5ebcf")
+		)
+		(pin "2"
+			(uuid "ddf44668-da3e-41d7-9ca1-551f01dec1d3")
+		)
+		(instances
+			(project "RPI4_is2Power"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C5")
 					(unit 1)
 				)
 			)
