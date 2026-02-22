@@ -8692,17 +8692,6 @@
 			(layer "F.Fab")
 			(uuid "867ccda3-82c3-4eb2-8a41-8f8ef1f62608")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(uuid "f9f139d3-75c4-4e02-aae5-43495265f209")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at -0.95 0 180)
 			(size 0.9 1.4)
@@ -9872,14 +9861,6 @@
 		(uuid "1844d975-db5d-4f28-b356-b0cb1201540b")
 	)
 	(segment
-		(start 157.425 63.525)
-		(end 159.95 63.5)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 29)
-		(uuid "18dd5415-c1e2-41bf-ba0d-2d4f02c25495")
-	)
-	(segment
 		(start 145.45 69.6)
 		(end 149.725 69.635)
 		(width 0.5)
@@ -9904,14 +9885,6 @@
 		(uuid "96f48df2-b2ff-4f8c-8185-2077a1e0de56")
 	)
 	(via
-		(at 157.425 63.525)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 29)
-		(uuid "7ebcc9c8-de8d-4bc8-be4f-97dd18a86d6f")
-	)
-	(via
 		(at 145.45 69.6)
 		(size 0.6)
 		(drill 0.3)
@@ -9928,28 +9901,12 @@
 		(uuid "07543b77-3f0c-49da-87fb-8a8bcbfcaaba")
 	)
 	(segment
-		(start 152.15 67.325)
-		(end 155.95 63.525)
-		(width 0.5)
-		(layer "In3.Cu")
-		(net 29)
-		(uuid "189d32cd-88df-4f9a-ba04-79c8eb745942")
-	)
-	(segment
 		(start 141.675 70.068196)
 		(end 144.975 70.075)
 		(width 0.5)
 		(layer "In3.Cu")
 		(net 29)
 		(uuid "621db866-6212-47dc-8edb-6fe944e6acfc")
-	)
-	(segment
-		(start 147.725 67.325)
-		(end 152.15 67.325)
-		(width 0.5)
-		(layer "In3.Cu")
-		(net 29)
-		(uuid "69892b80-1ca1-4132-ac97-4d51cefc6264")
 	)
 	(segment
 		(start 119.525 68.465)
@@ -9990,22 +9947,6 @@
 		(layer "In3.Cu")
 		(net 29)
 		(uuid "c7a69c58-4634-4624-81aa-b5022d68436e")
-	)
-	(segment
-		(start 145.45 69.6)
-		(end 147.725 67.325)
-		(width 0.5)
-		(layer "In3.Cu")
-		(net 29)
-		(uuid "d48552ae-cd72-40b4-8846-75ff8e3f43b1")
-	)
-	(segment
-		(start 155.95 63.525)
-		(end 157.425 63.525)
-		(width 0.5)
-		(layer "In3.Cu")
-		(net 29)
-		(uuid "e3c4573d-b679-417a-b7a0-6eddca713b40")
 	)
 	(zone
 		(net 28)
